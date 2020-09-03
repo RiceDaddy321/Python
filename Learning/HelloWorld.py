@@ -14,7 +14,16 @@ and stops at, but does not include, the last index
 
 #message.replace('(string to be replaced)', '(what to replace with)')
 #IMPORTANT--it doesn't actually alter the original string, instead it returns the new string
+#EASY FIX: message = message.replace(arg1, arg2)
 
+#formatted string:
+message = '{(placeholder for the greeting)}, {}. Welcome!'.format(placeholder1, placeHolder2)
+alternative-> message = f'{placeHolder1}, {placeHolder2}. Welcoem!' --f string
+
+#dir(variable)
+shows all of the attributes and methods that we have access to
+
+#help(variable type.())describes
 '''
 
 
